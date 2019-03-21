@@ -23,6 +23,9 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'src/'),
+  },
   externals: {
     'react/addons': true, // important!!
     'react/lib/ReactContext': true,
